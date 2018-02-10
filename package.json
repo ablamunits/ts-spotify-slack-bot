@@ -1,0 +1,29 @@
+{
+  "name": "spotify-slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index",
+    "watch-server": "nodemon -L -e ts --exec \"pkill node && npm run start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "@types/request": "^2.0.9",
+    "@types/spotify-web-api-js": "^0.21.0",
+    "ts-node": "^4.0.1",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "spotify-web-api-js": "^0.22.1",
+    "spotify-web-api-node": "^2.5.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
